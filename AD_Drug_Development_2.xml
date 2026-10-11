@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KnowledgeGraph>
+  <Entities>
+    <entity id="e47" type="Signaling_Pathway" name="Insulin signaling"/>
+    <entity id="e48" type="Protein" name="PI3K"/>
+    <entity id="e49" type="Protein" name="Akt"/>
+    <entity id="e50" type="Protein" name="GSK-3"/>
+    <entity id="e51" type="Protein" name="tau protein"/>
+    <entity id="e52" type="Protein_Complex" name="mTORC1"/>
+    <entity id="e53" type="Protein" name="IRS1"/>
+    <entity id="e54" type="Protein" name="TNF-a"/>
+    <entity id="e55" type="Protein" name="JNK"/>
+    <entity id="e56" type="Protein" name="PKR"/>
+    <entity id="e57" type="Protein" name="IKK"/>
+    <entity id="e58" type="Signaling_Pathway" name="Neurotrophic signaling pathway"/>
+    <entity id="e59" type="Protein" name="NGF"/>
+    <entity id="e60" type="Protein" name="BDNF"/>
+    <entity id="e61" type="Receptor" name="Trk"/>
+    <entity id="e62" type="Receptor" name="p75NTR"/>
+    <entity id="e63" type="Protein" name="APP"/>
+    <entity id="e64" type="Protein" name="PS1"/>
+    <entity id="e65" type="Protein" name="Aβ"/>
+    <entity id="e66" type="Protein" name="AEP"/>
+    <entity id="e67" type="Structure" name="BBB"/>
+    <entity id="e68" type="Cell" name="Endothelial cells"/>
+    <entity id="e69" type="Cell" name="Astrocytes"/>
+    <entity id="e70" type="Cell" name="Pericytes"/>
+    <entity id="e71" type="Cell" name="Microglia"/>
+    <entity id="e72" type="Cell" name="Neurons"/>
+    <entity id="e73" type="Structure" name="Neurovascular unit"/>
+    <entity id="e74" type="Biomarker" name="CSF Aβ42"/>
+    <entity id="e75" type="Biomarker" name="CSF P-tau181"/>
+    <entity id="e76" type="Drug" name="Donepezil"/>
+    <entity id="e77" type="Drug" name="Rivastigmine"/>
+    <entity id="e78" type="Drug" name="Galantamine"/>
+    <entity id="e79" type="Drug" name="Memantine"/>
+    <entity id="e80" type="Drug" name="Namzaric"/>
+    <entity id="e81" type="Drug" name="Sodium oligomannate"/>
+    <entity id="e82" type="Drug" name="Aducanumab"/>
+    <entity id="e83" type="Drug" name="Lecanemab"/>
+    <entity id="e84" type="Drug" name="Donanemab"/>
+    <entity id="e85" type="Drug" name="Brexpiprazole"/>
+    <entity id="e86" type="Drug" name="Semagacestat"/>
+    <entity id="e87" type="Drug" name="Avagacestat"/>
+    <entity id="e88" type="Drug" name="Umibecestat"/>
+    <entity id="e89" type="Drug" name="Elenbecestat"/>
+    <entity id="e90" type="Drug" name="ALZ-801"/>
+    <entity id="e91" type="Drug" name="Varoglutamstat"/>
+    <entity id="e92" type="Drug" name="Solanezumab"/>
+    <entity id="e93" type="Drug" name="Gantenerumab"/>
+    <entity id="e94" type="Drug" name="Tideglusib"/>
+    <entity id="e95" type="Drug" name="TRx0237"/>
+    <entity id="e96" type="Drug" name="Bepranemab"/>
+    <entity id="e97" type="Drug" name="E2814"/>
+    <entity id="e98" type="Drug" name="AADvac1"/>
+    <entity id="e99" type="Drug" name="NE3107"/>
+    <entity id="e100" type="Drug" name="ALZT-OP1"/>
+    <entity id="e101" type="Disease" name="AD"/>
+    <entity id="e102" type="Protein" name="AChE"/>
+    <entity id="e103" type="Receptor" name="NMDA receptor"/>
+    <entity id="e104" type="Receptor" name="Serotonin receptor"/>
+    <entity id="e105" type="Receptor" name="Dopamine receptor"/>
+    <entity id="e106" type="Receptor" name="Norepinephrine receptor"/>
+    <entity id="e107" type="Molecular_Process" name="Aβ production"/>
+    <entity id="e108" type="Molecular_Process" name="APP cleavage"/>
+    <entity id="e109" type="Molecular_Process" name="IRS1 phosphorylation"/>
+  </Entities>
+  <Relations>
+    <relation type="activates" source="e47" target="e48"/>
+    <relation type="activates" source="e48" target="e49"/>
+    <relation type="inhibits" source="e49" target="e50"/>
+    <relation type="phosphorylates" source="e50" target="e51"/>
+    <relation type="activates" source="e49" target="e52"/>
+    <relation type="inhibits" source="e53" target="e47"/>
+    <relation type="promotes" source="e54" target="e109"/>
+    <relation type="activates" source="e55" target="e109"/>
+    <relation type="activates" source="e56" target="e109"/>
+    <relation type="activates" source="e57" target="e109"/>
+    <relation type="activates" source="e59" target="e61"/>
+    <relation type="activates" source="e60" target="e61"/>
+    <relation type="activates" source="e63" target="e107"/>
+    <relation type="activates" source="e66" target="e108"/>
+    <relation type="disrupted_in" source="e67" target="e101"/>
+    <relation type="composed_of" source="e73" target="e68"/>
+    <relation type="composed_of" source="e73" target="e69"/>
+    <relation type="composed_of" source="e73" target="e70"/>
+    <relation type="composed_of" source="e73" target="e71"/>
+    <relation type="composed_of" source="e73" target="e72"/>
+    <relation type="targeted_by" source="e76" target="e102"/>
+    <relation type="targeted_by" source="e77" target="e102"/>
+    <relation type="targeted_by" source="e78" target="e102"/>
+    <relation type="targeted_by" source="e79" target="e103"/>
+    <relation type="targets" source="e82" target="e65"/>
+    <relation type="targets" source="e83" target="e65"/>
+    <relation type="targets" source="e84" target="e65"/>
+    <relation type="targets" source="e85" target="e104"/>
+    <relation type="targets" source="e85" target="e105"/>
+    <relation type="targets" source="e85" target="e106"/>
+  </Relations>
+</KnowledgeGraph>

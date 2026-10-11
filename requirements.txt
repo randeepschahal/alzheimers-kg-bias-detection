@@ -1,0 +1,10 @@
+networkx
+matplotlib
+pyvis
+pandas
+numpy
+torch
+torch_geometric
+vaderSentiment
+nltk
+wordcloud

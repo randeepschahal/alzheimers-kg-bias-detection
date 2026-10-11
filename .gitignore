@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Screenshots
+Screenshot*.png
+
+# Local tooling
+.remember/
+
+# Stray copy of an XML input inside pyvis's asset folder
+lib/*.xml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

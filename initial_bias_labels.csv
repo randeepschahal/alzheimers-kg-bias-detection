@@ -1,0 +1,162 @@
+node,name,bias_label
+e110,Mild cognitive impairment,2
+e111,Preclinical Alzheimer's,1
+e117,Cognitive decline,2
+e118,Severe dementia,1
+e119,Moderate dementia,2
+e120,Mild dementia,2
+e122,Tau protein,2
+e125,Cystatin C,1
+e126,Senile plaques,1
+e127,Neurofibrillary tangles,1
+e128,Amyloid deposits,2
+e129,ARIA-E (edema),2
+e130,ARIA-H (micro-hemorrhage),1
+e131,MRI,1
+e132,FDG-PET,1
+e133,Amyloid PET,1
+e134,Tau PET,1
+e135,MMSE,1
+e136,MoCA,1
+e137,CDR,1
+e138,FLAIR imaging,1
+e139,Aducanumab,2
+e140,Donepezil,2
+e141,Galantamine,2
+e142,Rivastigmine,2
+e143,Memantine,1
+e144,Vitamin E,1
+e145,Selegiline,1
+e151,Choline acetyltransferase,1
+e152,Acetylcholine,1
+e153,Cholinesterase,2
+e154,Glutamate,1
+e155,Amyloid beta,2
+e156,Apolipoprotein E,1
+e157,Inflammatory cytokines,1
+e158,NMDA receptor,2
+e159,Microglia,2
+e160,Neurons,2
+e161,APOE,2
+e162,APOE E4 allele,2
+e165,FDA,1
+e166,UK Biobank,2
+e168,Biogen,1
+e169,Neuroimmune,1
+e170,Diabetes mellitus,2
+e171,Air pollution,2
+e172,Nitrogen dioxide exposure,1
+e173,Alcohol intake,2
+e174,Hypertension,1
+e175,Obesity,1
+e176,Smoking,1
+e177,Physical inactivity,1
+e178,Depression,1
+e179,Social isolation,1
+e180,Low education,1
+e181,Traumatic brain injury,1
+e182,Hearing impairment,1
+e183,Excessive alcohol consumption,1
+e184,Lack of cognitive stimulation,1
+e185,Age,1
+e186,Coronary heart disease,1
+e187,Cerebral cortex,1
+e188,Hippocampus,1
+e189,Medial temporal lobe,1
+e191,Cholinergic transmission,2
+e194,Neuroinflammation,1
+e196,Neuronal metabolism,1
+e197,Hand grip strength,1
+e198,Lung function,2
+e199,Peak expiratory flow,1
+e200,Renal function,2
+e201,ATN classification,1
+e202,CADRO,1
+e203,EMERGE trial,1
+e204,ENGAGE trial,1
+e205,ADCS trial,2
+e1,Mild cognitive impairment (MCI),1
+e2,Amyloid-beta (Aβ / Aﬂ),2
+e3,Tau protein,1
+e4,Acetylcholine (ACh),2
+e5,Choline acetyltransferase (ChAT),1
+e6,Vesicular acetylcholine transporter (VAChT),1
+e7,Muscarinic acetylcholine receptors (mAChRs),1
+e8,Nicotinic acetylcholine receptors (nAChRs),1
+e9,Acetylcholinesterase (AChE),2
+e11,Donepezil,1
+e12,Rivastigmine,1
+e13,Galantamine,1
+e17,Aducanumab,1
+e18,Lecanemab,1
+e19,Donanemab,1
+e20,Amyloid precursor protein (APP),1
+e21,Presenilin 1 (PS1),1
+e22,Presenilin 2 (PS2),1
+e23,Apolipoprotein E (APOE),2
+e25,Microglia,1
+e27,NLRP3 inflammasome,1
+e28,TREM2,1
+e31,Neurofibrillary tangles (NFTs),1
+e32,Senile plaques,1
+e39,Mitochondrial function,1
+e41,Oxidative stress,1
+e42,Neuroinflammation,1
+e45,AD,2
+e46,Familial AD,2
+e47,Insulin signaling,2
+e48,PI3K,2
+e49,Akt,2
+e50,GSK-3,2
+e51,tau protein,1
+e52,mTORC1,1
+e53,IRS1,1
+e54,TNF-a,1
+e55,JNK,1
+e56,PKR,1
+e57,IKK,1
+e59,NGF,1
+e60,BDNF,1
+e61,Trk,2
+e63,APP,1
+e65,Aβ,2
+e66,AEP,1
+e67,BBB,1
+e68,Endothelial cells,1
+e69,Astrocytes,1
+e70,Pericytes,1
+e71,Microglia,1
+e72,Neurons,1
+e73,Neurovascular unit,2
+e76,Donepezil,1
+e77,Rivastigmine,1
+e78,Galantamine,1
+e79,Memantine,1
+e82,Aducanumab,1
+e83,Lecanemab,1
+e84,Donanemab,1
+e85,Brexpiprazole,2
+e101,AD,1
+e102,AChE,2
+e103,NMDA receptor,1
+e104,Serotonin receptor,1
+e105,Dopamine receptor,1
+e106,Norepinephrine receptor,1
+e107,Aβ production,1
+e108,APP cleavage,1
+e109,IRS1 phosphorylation,2
+MMSE,Mini-Mental State Examination,1
+MAT,Memory Alteration Test,1
+AD8,AD8 Questionnaire,1
+Fototest,Fototest,1
+MCI,Mild Cognitive Impairment,2
+pTau181,Plasma p-tau181,2
+GFAP,Glial Fibrillary Acidic Protein,2
+AB42_40,Aβ42/40 Ratio,1
+A_Plus,CSF Amyloid Positivity (A+),2
+A_T_Plus,CSF Amyloid + Tau Positivity (A+T+),2
+MRI,Magnetic Resonance Imaging,2
+MTA,Medial Temporal Atrophy,1
+APOE4,APOE ε4 Genotype,1
+CAIDE,CAIDE Dementia Risk Score,1
+PopulationRisk,Population Risk,1

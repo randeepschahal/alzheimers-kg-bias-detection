@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KnowledgeGraph>
+  <Entities>
+    <!-- Clinical Conditions -->
+    <entity id="e110" type="Disease_Stage" name="Mild cognitive impairment"/>
+    <entity id="e111" type="Disease_Stage" name="Preclinical Alzheimer's"/>
+    <entity id="e112" type="Disease" name="Lewy body dementia"/>
+    <entity id="e113" type="Disease" name="Vascular dementia"/>
+    <entity id="e114" type="Disease" name="Frontotemporal dementia"/>
+    <entity id="e115" type="Condition" name="Stroke"/>
+    <entity id="e116" type="Condition" name="Chronic traumatic encephalopathy"/>
+    <entity id="e117" type="Condition" name="Cognitive decline"/>
+    <entity id="e118" type="Disease_Stage" name="Severe dementia"/>
+    <entity id="e119" type="Disease_Stage" name="Moderate dementia"/>
+    <entity id="e120" type="Disease_Stage" name="Mild dementia"/>
+    
+    <!-- Biomarkers -->
+    <entity id="e121" type="Biomarker" name="Amyloid beta 42"/>
+    <entity id="e122" type="Biomarker" name="Tau protein"/>
+    <entity id="e123" type="Biomarker" name="Amyloid beta oligomers"/>
+    <entity id="e124" type="Biomarker" name="Synaptic markers"/>
+    <entity id="e125" type="Biomarker" name="Cystatin C"/>
+    
+    <!-- Pathological Features -->
+    <entity id="e126" type="Pathological_Feature" name="Senile plaques"/>
+    <entity id="e127" type="Pathological_Feature" name="Neurofibrillary tangles"/>
+    <entity id="e128" type="Pathological_Feature" name="Amyloid deposits"/>
+    <entity id="e129" type="Pathological_Feature" name="ARIA-E (edema)"/>
+    <entity id="e130" type="Pathological_Feature" name="ARIA-H (micro-hemorrhage)"/>
+    
+    <!-- Imaging/Tests -->
+    <entity id="e131" type="Test" name="MRI"/>
+    <entity id="e132" type="Test" name="FDG-PET"/>
+    <entity id="e133" type="Test" name="Amyloid PET"/>
+    <entity id="e134" type="Test" name="Tau PET"/>
+    <entity id="e135" type="Test" name="MMSE"/>
+    <entity id="e136" type="Test" name="MoCA"/>
+    <entity id="e137" type="Test" name="CDR"/>
+    <entity id="e138" type="Test" name="FLAIR imaging"/>
+    
+    <!-- Drugs -->
+    <entity id="e139" type="Drug" name="Aducanumab"/>
+    <entity id="e140" type="Drug" name="Donepezil"/>
+    <entity id="e141" type="Drug" name="Galantamine"/>
+    <entity id="e142" type="Drug" name="Rivastigmine"/>
+    <entity id="e143" type="Drug" name="Memantine"/>
+    <entity id="e144" type="Drug" name="Vitamin E"/>
+    <entity id="e145" type="Drug" name="Selegiline"/>
+    <entity id="e146" type="Drug" name="Estrogen"/>
+    <entity id="e147" type="Drug" name="Progestin"/>
+    <entity id="e148" type="Drug" name="Ginkgo biloba"/>
+    <entity id="e149" type="Drug" name="B vitamins"/>
+    <entity id="e150" type="Drug" name="Omega-3 fatty acids"/>
+    
+    <!-- Proteins/Molecules -->
+    <entity id="e151" type="Protein" name="Choline acetyltransferase"/>
+    <entity id="e152" type="Protein" name="Acetylcholine"/>
+    <entity id="e153" type="Protein" name="Cholinesterase"/>
+    <entity id="e154" type="Protein" name="Glutamate"/>
+    <entity id="e155" type="Protein" name="Amyloid beta"/>
+    <entity id="e156" type="Protein" name="Apolipoprotein E"/>
+    <entity id="e157" type="Protein" name="Inflammatory cytokines"/>
+    
+    <!-- Receptors -->
+    <entity id="e158" type="Receptor" name="NMDA receptor"/>
+    
+    <!-- Cells -->
+    <entity id="e159" type="Cell" name="Microglia"/>
+    <entity id="e160" type="Cell" name="Neurons"/>
+    
+    <!-- Genes -->
+    <entity id="e161" type="Gene" name="APOE"/>
+    <entity id="e162" type="Gene" name="APOE E4 allele"/>
+    
+    <!-- Organizations -->
+    <entity id="e163" type="Organization" name="World Health Organization"/>
+    <entity id="e164" type="Organization" name="Alzheimer's Association"/>
+    <entity id="e165" type="Organization" name="FDA"/>
+    <entity id="e166" type="Organization" name="UK Biobank"/>
+    <entity id="e167" type="Organization" name="National Institute on Aging"/>
+    <entity id="e168" type="Organization" name="Biogen"/>
+    <entity id="e169" type="Organization" name="Neuroimmune"/>
+    
+    <!-- Risk Factors -->
+    <entity id="e170" type="RiskFactor" name="Diabetes mellitus"/>
+    <entity id="e171" type="RiskFactor" name="Air pollution"/>
+    <entity id="e172" type="RiskFactor" name="Nitrogen dioxide exposure"/>
+    <entity id="e173" type="RiskFactor" name="Alcohol intake"/>
+    <entity id="e174" type="RiskFactor" name="Hypertension"/>
+    <entity id="e175" type="RiskFactor" name="Obesity"/>
+    <entity id="e176" type="RiskFactor" name="Smoking"/>
+    <entity id="e177" type="RiskFactor" name="Physical inactivity"/>
+    <entity id="e178" type="RiskFactor" name="Depression"/>
+    <entity id="e179" type="RiskFactor" name="Social isolation"/>
+    <entity id="e180" type="RiskFactor" name="Low education"/>
+    <entity id="e181" type="RiskFactor" name="Traumatic brain injury"/>
+    <entity id="e182" type="RiskFactor" name="Hearing impairment"/>
+    <entity id="e183" type="RiskFactor" name="Excessive alcohol consumption"/>
+    <entity id="e184" type="RiskFactor" name="Lack of cognitive stimulation"/>
+    <entity id="e185" type="RiskFactor" name="Age"/>
+    <entity id="e186" type="RiskFactor" name="Coronary heart disease"/>
+    
+    <!-- Brain Regions -->
+    <entity id="e187" type="Structure" name="Cerebral cortex"/>
+    <entity id="e188" type="Structure" name="Hippocampus"/>
+    <entity id="e189" type="Structure" name="Medial temporal lobe"/>
+    <entity id="e190" type="Structure" name="Higher-order brain regions"/>
+    
+    <!-- Molecular Processes -->
+    <entity id="e191" type="Molecular_Process" name="Cholinergic transmission"/>
+    <entity id="e192" type="Molecular_Process" name="Acetylcholine synthesis"/>
+    <entity id="e193" type="Molecular_Process" name="Neurodegeneration"/>
+    <entity id="e194" type="Molecular_Process" name="Neuroinflammation"/>
+    <entity id="e195" type="Molecular_Process" name="Oxidation"/>
+    <entity id="e196" type="Molecular_Process" name="Neuronal metabolism"/>
+    
+    <!-- Clinical Measures -->
+    <entity id="e197" type="Biomarker" name="Hand grip strength"/>
+    <entity id="e198" type="Biomarker" name="Lung function"/>
+    <entity id="e199" type="Biomarker" name="Peak expiratory flow"/>
+    <entity id="e200" type="Biomarker" name="Renal function"/>
+    
+    <!-- Classification Systems -->
+    <entity id="e201" type="Classification" name="ATN classification"/>
+    <entity id="e202" type="Classification" name="CADRO"/>
+    
+    <!-- Clinical Trials -->
+    <entity id="e203" type="Clinical_Trial" name="EMERGE trial"/>
+    <entity id="e204" type="Clinical_Trial" name="ENGAGE trial"/>
+    <entity id="e205" type="Clinical_Trial" name="ADCS trial"/>
+  </Entities>
+
+  <Relations>
+    <!-- Disease progression -->
+    <relation type="progresses_to" source="e110" target="e120"/>
+    <relation type="progresses_to" source="e120" target="e119"/>
+    <relation type="progresses_to" source="e119" target="e118"/>
+    
+    <!-- Biomarker associations -->
+    <relation type="forms" source="e155" target="e126"/>
+    <relation type="forms" source="e122" target="e127"/>
+    <relation type="deposits_as" source="e155" target="e128"/>
+    
+    <!-- Drug targets -->
+    <relation type="targets" source="e139" target="e155"/>
+    <relation type="inhibits" source="e140" target="e153"/>
+    <relation type="inhibits" source="e141" target="e153"/>
+    <relation type="inhibits" source="e142" target="e153"/>
+    <relation type="antagonizes" source="e143" target="e158"/>
+    
+    <!-- Protein relationships -->
+    <relation type="synthesizes" source="e151" target="e152"/>
+    <relation type="activates" source="e154" target="e158"/>
+    <relation type="encodes" source="e161" target="e156"/>
+    
+    <!-- Cell processes -->
+    <relation type="releases" source="e159" target="e157"/>
+    <relation type="activated_by" source="e159" target="e155"/>
+    
+    <!-- Brain region involvement -->
+    <relation type="contains" source="e187" target="e160"/>
+    <relation type="contains" source="e188" target="e160"/>
+    <relation type="involved_in" source="e189" target="e110"/>
+    
+    <!-- Risk factor relationships -->
+    <relation type="risk_factor_for" source="e170" target="e117"/>
+    <relation type="risk_factor_for" source="e171" target="e117"/>
+    <relation type="risk_factor_for" source="e172" target="e117"/>
+    <relation type="risk_factor_for" source="e173" target="e117"/>
+    <relation type="risk_factor_for" source="e174" target="e117"/>
+    <relation type="risk_factor_for" source="e175" target="e117"/>
+    <relation type="risk_factor_for" source="e176" target="e117"/>
+    <relation type="risk_factor_for" source="e177" target="e117"/>
+    <relation type="risk_factor_for" source="e178" target="e117"/>
+    <relation type="risk_factor_for" source="e179" target="e117"/>
+    <relation type="risk_factor_for" source="e180" target="e117"/>
+    <relation type="risk_factor_for" source="e181" target="e117"/>
+    <relation type="risk_factor_for" source="e182" target="e117"/>
+    <relation type="risk_factor_for" source="e183" target="e117"/>
+    <relation type="risk_factor_for" source="e184" target="e117"/>
+    <relation type="risk_factor_for" source="e185" target="e117"/>
+    <relation type="risk_factor_for" source="e186" target="e117"/>
+    
+    <!-- Genetic risk -->
+    <relation type="increases_risk" source="e162" target="e117"/>
+    <relation type="variant_of" source="e162" target="e161"/>
+    
+    <!-- Diagnostic tests -->
+    <relation type="detects" source="e131" target="e128"/>
+    <relation type="detects" source="e132" target="e196"/>
+    <relation type="detects" source="e133" target="e155"/>
+    <relation type="detects" source="e134" target="e122"/>
+    <relation type="measures" source="e135" target="e117"/>
+    <relation type="measures" source="e136" target="e117"/>
+    <relation type="measures" source="e137" target="e117"/>
+    <relation type="shows" source="e138" target="e129"/>
+    
+    <!-- Drug side effects -->
+    <relation type="causes" source="e139" target="e129"/>
+    <relation type="causes" source="e139" target="e130"/>
+    
+    <!-- Molecular processes -->
+    <relation type="increases" source="e140" target="e191"/>
+    <relation type="increases" source="e141" target="e191"/>
+    <relation type="increases" source="e142" target="e191"/>
+    <relation type="induces" source="e155" target="e194"/>
+    
+    <!-- Clinical trial associations -->
+    <relation type="evaluated_in" source="e139" target="e203"/>
+    <relation type="evaluated_in" source="e139" target="e204"/>
+    <relation type="evaluated_in" source="e144" target="e205"/>
+    <relation type="evaluated_in" source="e145" target="e205"/>
+    
+    <!-- Organization relationships -->
+    <relation type="regulates" source="e165" target="e139"/>
+    <relation type="developed_by" source="e139" target="e168"/>
+    <relation type="transferred_to" source="e139" target="e169"/>
+    <relation type="provides_data" source="e166" target="e170"/>
+    <relation type="provides_data" source="e166" target="e171"/>
+    <relation type="provides_data" source="e166" target="e173"/>
+    
+    <!-- Classification systems -->
+    <relation type="classifies" source="e201" target="e111"/>
+    <relation type="classifies" source="e202" target="e139"/>
+    
+    <!-- Biomarker declines -->
+    <relation type="declines_in" source="e197" target="e117"/>
+    <relation type="declines_in" source="e198" target="e117"/>
+    <relation type="declines_in" source="e200" target="e117"/>
+    <relation type="measured_by" source="e198" target="e199"/>
+    <relation type="measured_by" source="e200" target="e125"/>
+  </Relations>
+</KnowledgeGraph>

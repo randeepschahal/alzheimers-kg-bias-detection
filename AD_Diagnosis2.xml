@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KnowledgeGraph>
+  <Entities>
+    <entity id="MMSE" type="CognitiveTest" name="Mini-Mental State Examination"/>
+    <entity id="MAT" type="CognitiveTest" name="Memory Alteration Test"/>
+    <entity id="AD8" type="CognitiveTest" name="AD8 Questionnaire"/>
+    <entity id="Fototest" type="CognitiveTest" name="Fototest"/>
+
+    <entity id="CN" type="ClinicalCategory" name="Cognitively Normal"/>
+    <entity id="SCD" type="ClinicalCategory" name="Subjective Cognitive Decline"/>
+    <entity id="MCI" type="ClinicalCategory" name="Mild Cognitive Impairment"/>
+    <entity id="Dementia" type="ClinicalCategory" name="Dementia"/>
+
+    <entity id="pTau181" type="Biomarker" name="Plasma p-tau181"/>
+    <entity id="GFAP" type="Biomarker" name="Glial Fibrillary Acidic Protein"/>
+    <entity id="NfL" type="Biomarker" name="Neurofilament Light Chain"/>
+    <entity id="AB42_40" type="Biomarker" name="Aβ42/40 Ratio"/>
+
+    <entity id="A_Plus" type="Pathology" name="CSF Amyloid Positivity (A+)"/>
+    <entity id="A_T_Plus" type="Pathology" name="CSF Amyloid + Tau Positivity (A+T+)"/>
+
+    <entity id="MRI" type="Imaging" name="Magnetic Resonance Imaging"/>
+    <entity id="MTA" type="MRI_Feature" name="Medial Temporal Atrophy"/>
+    <entity id="Fazekas" type="MRI_Feature" name="Fazekas Vascular Burden Score"/>
+
+    <entity id="APOE4" type="Genetic" name="APOE ε4 Genotype"/>
+    <entity id="CAIDE" type="RiskScore" name="CAIDE Dementia Risk Score"/>
+    <entity id="PopulationRisk" type="RiskScore" name="Population Risk"/>
+  </Entities>
+
+  <Relations>
+    <relation type="detects" source="Fototest" target="MCI"/>
+    <relation type="detects" source="AD8" target="MCI"/>
+    <relation type="detects" source="MAT" target="MCI"/>
+    <relation type="detects" source="MMSE" target="MCI"/>
+
+    <relation type="predicts" source="GFAP" target="A_T_Plus"/>
+    <relation type="predicts" source="pTau181" target="A_T_Plus"/>
+    <relation type="predicts" source="GFAP" target="A_Plus"/>
+    <relation type="predicts" source="pTau181" target="A_Plus"/>
+
+    <relation type="inverse_predicts" source="AB42_40" target="A_T_Plus"/>
+
+    <relation type="improves" source="MTA" target="MCI"/>
+    <relation type="improves" source="MRI" target="MCI"/>
+    <relation type="improves" source="MRI" target="A_Plus"/>
+
+    <relation type="associated_with" source="APOE4" target="A_Plus"/>
+    <relation type="stratifies" source="CAIDE" target="PopulationRisk"/>
+  </Relations>
+</KnowledgeGraph>

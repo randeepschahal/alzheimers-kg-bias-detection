@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KnowledgeGraph>
+  <Entities>
+    <entity id="e1" type="Disease_Stage" name="Mild cognitive impairment (MCI)"/>
+    <entity id="e2" type="Protein" name="Amyloid-beta (Aβ / Aﬂ)"/>
+    <entity id="e3" type="Protein" name="Tau protein"/>
+    <entity id="e4" type="Protein" name="Acetylcholine (ACh)"/>
+    <entity id="e5" type="Protein" name="Choline acetyltransferase (ChAT)"/>
+    <entity id="e6" type="Protein" name="Vesicular acetylcholine transporter (VAChT)"/>
+    <entity id="e7" type="Protein" name="Muscarinic acetylcholine receptors (mAChRs)"/>
+    <entity id="e8" type="Protein" name="Nicotinic acetylcholine receptors (nAChRs)"/>
+    <entity id="e9" type="Protein" name="Acetylcholinesterase (AChE)"/>
+    <entity id="e10" type="Drug" name="Tacrine"/>
+    <entity id="e11" type="Drug" name="Donepezil"/>
+    <entity id="e12" type="Drug" name="Rivastigmine"/>
+    <entity id="e13" type="Drug" name="Galantamine"/>
+    <entity id="e14" type="Drug" name="Memantine"/>
+    <entity id="e15" type="Drug" name="Namzaric"/>
+    <entity id="e16" type="Drug" name="Sodium oligomannate (GV-971)"/>
+    <entity id="e17" type="Drug" name="Aducanumab"/>
+    <entity id="e18" type="Drug" name="Lecanemab"/>
+    <entity id="e19" type="Drug" name="Donanemab"/>
+    <entity id="e20" type="Gene" name="Amyloid precursor protein (APP)"/>
+    <entity id="e21" type="Gene" name="Presenilin 1 (PS1)"/>
+    <entity id="e22" type="Gene" name="Presenilin 2 (PS2)"/>
+    <entity id="e23" type="Gene" name="Apolipoprotein E (APOE)"/>
+    <entity id="e24" type="Cell" name="Cholinergic neurons"/>
+    <entity id="e25" type="Cell" name="Microglia"/>
+    <entity id="e26" type="Cell" name="Astrocytes"/>
+    <entity id="e27" type="Protein" name="NLRP3 inflammasome"/>
+    <entity id="e28" type="Protein" name="TREM2"/>
+    <entity id="e29" type="Protein" name="Gasdermin D (GSDMD)"/>
+    <entity id="e30" type="Molecular_Process" name="Autophagy"/>
+    <entity id="e31" type="Pathological_Feature" name="Neurofibrillary tangles (NFTs)"/>
+    <entity id="e32" type="Pathological_Feature" name="Senile plaques"/>
+    <entity id="e33" type="Pathway" name="MAPK signaling"/>
+    <entity id="e34" type="Pathway" name="NF-kB signaling"/>
+    <entity id="e35" type="Pathway" name="PI3K/Akt signaling"/>
+    <entity id="e36" type="Pathway" name="cGAS-STING signaling"/>
+    <entity id="e37" type="Pathway" name="Calcium signaling"/>
+    <entity id="e38" type="Pathway" name="Cholesterol metabolism"/>
+    <entity id="e39" type="Pathway" name="Mitochondrial function"/>
+    <entity id="e40" type="Pathway" name="Glutamatergic excitotoxicity"/>
+    <entity id="e41" type="Molecular_Process" name="Oxidative stress"/>
+    <entity id="e42" type="Molecular_Process" name="Neuroinflammation"/>
+    <entity id="e43" type="Molecular_Process" name="Metal ion dyshomeostasis"/>
+    <entity id="e44" type="Molecular_Process" name="Protein phosphorylation"/>
+    <entity id="e45" type="Disease" name="AD"/>
+    <entity id="e46" type="Disease" name="Familial AD"/>
+  </Entities>
+
+  <Relations>
+    <relation type="progresses_to" source="e1" target="e45"/>
+    <relation type="associated_with" source="e2" target="e32"/>
+    <relation type="associated_with" source="e3" target="e31"/>
+    <relation type="synthesized_by" source="e4" target="e5"/>
+    <relation type="transported_by" source="e4" target="e6"/>
+    <relation type="binds_to" source="e4" target="e7"/>
+    <relation type="binds_to" source="e4" target="e8"/>
+    <relation type="degraded_by" source="e4" target="e9"/>
+    <relation type="targets" source="e11" target="e9"/>
+    <relation type="targets" source="e12" target="e9"/>
+    <relation type="targets" source="e13" target="e9"/>
+    <relation type="targets" source="e17" target="e2"/>
+    <relation type="targets" source="e18" target="e2"/>
+    <relation type="targets" source="e19" target="e2"/>
+    <relation type="mutated_in" source="e20" target="e46"/>
+    <relation type="mutated_in" source="e21" target="e46"/>
+    <relation type="mutated_in" source="e22" target="e46"/>
+    <relation type="modulates" source="e23" target="e2"/>
+    <relation type="activates" source="e25" target="e27"/>
+    <relation type="binds_to" source="e28" target="e23"/>
+    <relation type="induces" source="e41" target="e42"/>
+    <relation type="disrupted_in" source="e39" target="e45"/>
+  </Relations>
+</KnowledgeGraph>

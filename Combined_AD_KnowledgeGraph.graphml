@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d1" for="node" attr.name="name" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="D1">
+      <data key="d0">Disease</data>
+      <data key="d1">Alzheimer’s disease</data>
+    </node>
+    <node id="C1">
+      <data key="d0">Condition</data>
+      <data key="d1">Dementia</data>
+    </node>
+    <node id="C2">
+      <data key="d0">Condition</data>
+      <data key="d1">Mild cognitive impairment</data>
+    </node>
+    <node id="D2">
+      <data key="d0">Disease</data>
+      <data key="d1">Lewy body dementia</data>
+    </node>
+    <node id="D3">
+      <data key="d0">Disease</data>
+      <data key="d1">Vascular dementia</data>
+    </node>
+    <node id="D4">
+      <data key="d0">Disease</data>
+      <data key="d1">Frontotemporal dementia</data>
+    </node>
+    <node id="B1">
+      <data key="d0">Biomarker</data>
+      <data key="d1">amyloid β</data>
+    </node>
+    <node id="B2">
+      <data key="d0">Biomarker</data>
+      <data key="d1">tau protein</data>
+    </node>
+    <node id="B3">
+      <data key="d0">Biomarker</data>
+      <data key="d1">amyloid β oligomers</data>
+    </node>
+    <node id="I1">
+      <data key="d0">ImagingMethod</data>
+      <data key="d1">PET amyloid imaging</data>
+    </node>
+    <node id="I2">
+      <data key="d0">ImagingMethod</data>
+      <data key="d1">tau PET imaging</data>
+    </node>
+    <node id="I3">
+      <data key="d0">ImagingMethod</data>
+      <data key="d1">MRI</data>
+    </node>
+    <node id="I4">
+      <data key="d0">ImagingMethod</data>
+      <data key="d1">FDG‑PET</data>
+    </node>
+    <node id="T1">
+      <data key="d0">Test</data>
+      <data key="d1">Mini‑Mental State Examination</data>
+    </node>
+    <node id="T2">
+      <data key="d0">Test</data>
+      <data key="d1">Montreal Cognitive Assessment</data>
+    </node>
+    <node id="T3">
+      <data key="d0">Test</data>
+      <data key="d1">Clinical Dementia Rating</data>
+    </node>
+    <node id="DR1">
+      <data key="d0">Drug</data>
+      <data key="d1">Aducanumab</data>
+    </node>
+    <node id="DR2">
+      <data key="d0">Drug</data>
+      <data key="d1">Cholinesterase inhibitors</data>
+    </node>
+    <node id="DR3">
+      <data key="d0">Drug</data>
+      <data key="d1">Memantine</data>
+    </node>
+    <node id="DR4">
+      <data key="d0">Drug</data>
+      <data key="d1">Selegiline</data>
+    </node>
+    <node id="DR5">
+      <data key="d0">Drug</data>
+      <data key="d1">Vitamin E (alpha‑tocopherol)</data>
+    </node>
+    <node id="CT1">
+      <data key="d0">ClinicalTrialMetric</data>
+      <data key="d1">ClinicalTrialMetric_CT1</data>
+    </node>
+    <node id="R1">
+      <data key="d0">RiskFactor</data>
+      <data key="d1">Diabetes mellitus</data>
+    </node>
+    <node id="R2">
+      <data key="d0">RiskFactor</data>
+      <data key="d1">Air pollution (nitrogen dioxide exposure)</data>
+    </node>
+    <node id="R3">
+      <data key="d0">RiskFactor</data>
+      <data key="d1">Frequency of alcohol intake</data>
+    </node>
+    <node id="R4">
+      <data key="d0">RiskFactor</data>
+      <data key="d1">Low education</data>
+    </node>
+    <node id="R5">
+      <data key="d0">RiskFactor</data>
+      <data key="d1">Hearing impairment</data>
+    </node>
+    <node id="R6">
+      <data key="d0">RiskFactor</data>
+      <data key="d1">Obesity</data>
+    </node>
+    <node id="R7">
+      <data key="d0">RiskFactor</data>
+      <data key="d1">Smoking</data>
+    </node>
+    <node id="R8">
+      <data key="d0">RiskFactor</data>
+      <data key="d1">Depression</data>
+    </node>
+    <node id="R9">
+      <data key="d0">RiskFactor</data>
+      <data key="d1">Physical inactivity</data>
+    </node>
+    <node id="R10">
+      <data key="d0">RiskFactor</data>
+      <data key="d1">Social isolation</data>
+    </node>
+    <node id="R11">
+      <data key="d0">RiskFactor</data>
+      <data key="d1">Traumatic brain injury</data>
+    </node>
+    <node id="G1">
+      <data key="d0">Gene</data>
+      <data key="d1">APOE</data>
+    </node>
+    <node id="cost_and_availability" />
+    <node id="ARIA_side_effects" />
+    <node id="C3">
+      <data key="d0">Condition</data>
+      <data key="d1">Cognitive impairment</data>
+    </node>
+    <node id="H1">
+      <data key="d0">HealthMetric</data>
+      <data key="d1">HealthMetric_H1</data>
+    </node>
+    <node id="H2">
+      <data key="d0">HealthMetric</data>
+      <data key="d1">HealthMetric_H2</data>
+    </node>
+    <node id="H3">
+      <data key="d0">HealthMetric</data>
+      <data key="d1">HealthMetric_H3</data>
+    </node>
+    <node id="H4">
+      <data key="d0">HealthMetric</data>
+      <data key="d1">HealthMetric_H4</data>
+    </node>
+    <node id="H5">
+      <data key="d0">HealthMetric</data>
+      <data key="d1">HealthMetric_H5</data>
+    </node>
+    <node id="H6">
+      <data key="d0">HealthMetric</data>
+      <data key="d1">HealthMetric_H6</data>
+    </node>
+    <node id="CG1">
+      <data key="d0">CaregiverEntity</data>
+      <data key="d1">CaregiverEntity_CG1</data>
+    </node>
+    <node id="CGM1">
+      <data key="d0">CaregiverMetric</data>
+      <data key="d1">CaregiverMetric_CGM1</data>
+    </node>
+    <node id="E1">
+      <data key="d0">EconomicMetric</data>
+      <data key="d1">EconomicMetric_E1</data>
+    </node>
+    <node id="W1">
+      <data key="d0">WorkforceEntity</data>
+      <data key="d1">WorkforceEntity_W1</data>
+    </node>
+    <node id="W2">
+      <data key="d0">WorkforceMetric</data>
+      <data key="d1">WorkforceMetric_W2</data>
+    </node>
+    <node id="E2">
+      <data key="d0">EconomicMetric</data>
+      <data key="d1">EconomicMetric_E2</data>
+    </node>
+    <node id="E3">
+      <data key="d0">EconomicMetric</data>
+      <data key="d1">EconomicMetric_E3</data>
+    </node>
+    <node id="E4">
+      <data key="d0">EconomicMetric</data>
+      <data key="d1">EconomicMetric_E4</data>
+    </node>
+    <node id="P1">
+      <data key="d0">ProgramEntity</data>
+      <data key="d1">ProgramEntity_P1</data>
+    </node>
+    <node id="NP1">
+      <data key="d0">ProfessionalEntity</data>
+      <data key="d1">ProfessionalEntity_NP1</data>
+    </node>
+    <node id="S1">
+      <data key="d0">SurveyEntity</data>
+      <data key="d1">SurveyEntity_S1</data>
+    </node>
+    <node id="care_navigation" />
+    <node id="T4">
+      <data key="d0">Test</data>
+      <data key="d1">AD8</data>
+    </node>
+    <node id="B4">
+      <data key="d0">Biomarker</data>
+      <data key="d1">NfL</data>
+    </node>
+    <node id="primary_care_setting" />
+    <node id="P2">
+      <data key="d0">Pathway</data>
+      <data key="d1">Amyloid hypothesis</data>
+    </node>
+    <node id="P3">
+      <data key="d0">Pathway</data>
+      <data key="d1">Tau protein hypothesis</data>
+    </node>
+    <node id="P4">
+      <data key="d0">Pathway</data>
+      <data key="d1">Inflammatory hypothesis</data>
+    </node>
+    <node id="P5">
+      <data key="d0">Pathway</data>
+      <data key="d1">Oxidative stress hypothesis</data>
+    </node>
+    <node id="P6">
+      <data key="d0">Pathway</data>
+      <data key="d1">Metal ion hypothesis</data>
+    </node>
+    <node id="P7">
+      <data key="d0">Pathway</data>
+      <data key="d1">Glutamate excitotoxicity hypothesis</data>
+    </node>
+    <node id="P8">
+      <data key="d0">Pathway</data>
+      <data key="d1">Microbiota-gut-brain axis hypothesis</data>
+    </node>
+    <node id="P9">
+      <data key="d0">Pathway</data>
+      <data key="d1">Autophagy dysfunction hypothesis</data>
+    </node>
+    <node id="DR6">
+      <data key="d0">Drug</data>
+      <data key="d1">Rivastigmine</data>
+    </node>
+    <node id="DR7">
+      <data key="d0">Drug</data>
+      <data key="d1">Galantamine</data>
+    </node>
+    <node id="DR8">
+      <data key="d0">Drug</data>
+      <data key="d1">Memantine</data>
+    </node>
+    <node id="DR9">
+      <data key="d0">Drug</data>
+      <data key="d1">Namzaric</data>
+    </node>
+    <node id="DR10">
+      <data key="d0">Drug</data>
+      <data key="d1">Sodium oligomannate (GV-971)</data>
+    </node>
+    <node id="DA1">
+      <data key="d0">DrugApproach</data>
+      <data key="d1">Selective inhibitors</data>
+    </node>
+    <node id="DA2">
+      <data key="d0">DrugApproach</data>
+      <data key="d1">Dual-target inhibitors</data>
+    </node>
+    <node id="DA3">
+      <data key="d0">DrugApproach</data>
+      <data key="d1">Allosteric modulators</data>
+    </node>
+    <node id="DA4">
+      <data key="d0">DrugApproach</data>
+      <data key="d1">Covalent inhibitors</data>
+    </node>
+    <node id="DA5">
+      <data key="d0">DrugApproach</data>
+      <data key="d1">Proteolysis-targeting chimeras (PROTACs)</data>
+    </node>
+    <node id="DA6">
+      <data key="d0">DrugApproach</data>
+      <data key="d1">Protein-protein interaction (PPI) modulators</data>
+    </node>
+    <node id="hepatotoxicity" />
+    <edge source="D1" target="B1">
+      <data key="d2">characterised_by</data>
+    </edge>
+    <edge source="D1" target="B2">
+      <data key="d2">characterised_by</data>
+    </edge>
+    <edge source="D1" target="I1">
+      <data key="d2">diagnosed_with_imaging</data>
+    </edge>
+    <edge source="D1" target="I2">
+      <data key="d2">diagnosed_by</data>
+    </edge>
+    <edge source="D1" target="T1">
+      <data key="d2">detected_by</data>
+    </edge>
+    <edge source="D1" target="T2">
+      <data key="d2">detected_by</data>
+    </edge>
+    <edge source="D1" target="T3">
+      <data key="d2">detected_by</data>
+    </edge>
+    <edge source="D1" target="CT1">
+      <data key="d2">undergoing_clinical_trials</data>
+    </edge>
+    <edge source="D1" target="R1">
+      <data key="d2">risk_factor</data>
+    </edge>
+    <edge source="D1" target="R2">
+      <data key="d2">preventable_by_modifying</data>
+    </edge>
+    <edge source="D1" target="R3">
+      <data key="d2">preventable_by_modifying</data>
+    </edge>
+    <edge source="D1" target="C1">
+      <data key="d2">has_subtype</data>
+    </edge>
+    <edge source="D1" target="H1">
+      <data key="d2">has_prevalence</data>
+    </edge>
+    <edge source="D1" target="H2">
+      <data key="d2">projected_to_reach</data>
+    </edge>
+    <edge source="D1" target="H3">
+      <data key="d2">has_mortality</data>
+    </edge>
+    <edge source="D1" target="H4">
+      <data key="d2">ranked_as</data>
+    </edge>
+    <edge source="D1" target="H5">
+      <data key="d2">ranked_as</data>
+    </edge>
+    <edge source="D1" target="H6">
+      <data key="d2">mortality_trend</data>
+    </edge>
+    <edge source="D1" target="E2">
+      <data key="d2">increases_costs_for</data>
+    </edge>
+    <edge source="D1" target="E3">
+      <data key="d2">increases_costs_for</data>
+    </edge>
+    <edge source="D1" target="E4">
+      <data key="d2">total_cost_estimate</data>
+    </edge>
+    <edge source="D1" target="T4">
+      <data key="d2">detected_by</data>
+    </edge>
+    <edge source="D1" target="B3">
+      <data key="d2">associated_with_biomarker</data>
+    </edge>
+    <edge source="D1" target="B4">
+      <data key="d2">associated_with_biomarker</data>
+    </edge>
+    <edge source="D1" target="G1">
+      <data key="d2">risk_factor</data>
+    </edge>
+    <edge source="D1" target="P1">
+      <data key="d2">has_hypothesis</data>
+    </edge>
+    <edge source="D1" target="P2">
+      <data key="d2">has_hypothesis</data>
+    </edge>
+    <edge source="D1" target="P3">
+      <data key="d2">has_hypothesis</data>
+    </edge>
+    <edge source="D1" target="P4">
+      <data key="d2">has_hypothesis</data>
+    </edge>
+    <edge source="D1" target="P5">
+      <data key="d2">has_hypothesis</data>
+    </edge>
+    <edge source="D1" target="P6">
+      <data key="d2">has_hypothesis</data>
+    </edge>
+    <edge source="D1" target="P7">
+      <data key="d2">has_hypothesis</data>
+    </edge>
+    <edge source="D1" target="P8">
+      <data key="d2">has_hypothesis</data>
+    </edge>
+    <edge source="D1" target="P9">
+      <data key="d2">has_hypothesis</data>
+    </edge>
+    <edge source="C1" target="C2">
+      <data key="d2">is_type_of</data>
+    </edge>
+    <edge source="D2" target="D1">
+      <data key="d2">co_occurred_with</data>
+    </edge>
+    <edge source="B1" target="D1">
+      <data key="d2">predicts</data>
+    </edge>
+    <edge source="B3" target="D1">
+      <data key="d2">predicts</data>
+    </edge>
+    <edge source="T3" target="primary_care_setting">
+      <data key="d2">performed_in</data>
+    </edge>
+    <edge source="DR1" target="B1">
+      <data key="d2">targets</data>
+    </edge>
+    <edge source="DR1" target="cost_and_availability">
+      <data key="d2">has_limitation</data>
+    </edge>
+    <edge source="DR1" target="ARIA_side_effects">
+      <data key="d2">has_limitation</data>
+    </edge>
+    <edge source="DR1" target="D1">
+      <data key="d2">potentially_modifies</data>
+    </edge>
+    <edge source="DR2" target="D1">
+      <data key="d2">potentially_modifies</data>
+    </edge>
+    <edge source="DR3" target="D1">
+      <data key="d2">potentially_modifies</data>
+    </edge>
+    <edge source="DR4" target="D1">
+      <data key="d2">evaluated_for</data>
+    </edge>
+    <edge source="DR4" target="hepatotoxicity">
+      <data key="d2">withdrawn_due_to</data>
+    </edge>
+    <edge source="DR5" target="D1">
+      <data key="d2">symptomatic_relief_for</data>
+    </edge>
+    <edge source="R1" target="D1">
+      <data key="d2">increases_risk_of</data>
+    </edge>
+    <edge source="R2" target="D1">
+      <data key="d2">increases_risk_of</data>
+    </edge>
+    <edge source="R3" target="D1">
+      <data key="d2">increases_risk_of</data>
+    </edge>
+    <edge source="R4" target="D1">
+      <data key="d2">modulates_progression_of</data>
+    </edge>
+    <edge source="R5" target="D1">
+      <data key="d2">modulates_progression_of</data>
+    </edge>
+    <edge source="R6" target="D1">
+      <data key="d2">modulates_progression_of</data>
+    </edge>
+    <edge source="R7" target="D1">
+      <data key="d2">modulates_progression_of</data>
+    </edge>
+    <edge source="R8" target="D1">
+      <data key="d2">modulates_progression_of</data>
+    </edge>
+    <edge source="R9" target="D1">
+      <data key="d2">modulates_progression_of</data>
+    </edge>
+    <edge source="R10" target="D1">
+      <data key="d2">increases_risk_of</data>
+    </edge>
+    <edge source="R11" target="D1">
+      <data key="d2">increases_risk_of</data>
+    </edge>
+    <edge source="G1" target="D1">
+      <data key="d2">modulates_risk_of</data>
+    </edge>
+    <edge source="CG1" target="D1">
+      <data key="d2">provides_care_for</data>
+    </edge>
+    <edge source="CG1" target="CGM1">
+      <data key="d2">provides_care_hours</data>
+    </edge>
+    <edge source="CG1" target="E1">
+      <data key="d2">contributes_value</data>
+    </edge>
+    <edge source="W1" target="D1">
+      <data key="d2">cares_for</data>
+    </edge>
+    <edge source="W1" target="W2">
+      <data key="d2">faces</data>
+    </edge>
+    <edge source="P1" target="W2">
+      <data key="d2">addresses</data>
+    </edge>
+    <edge source="NP1" target="care_navigation">
+      <data key="d2">supports</data>
+    </edge>
+    <edge source="S1" target="NP1">
+      <data key="d2">examines</data>
+    </edge>
+    <edge source="S1" target="CG1">
+      <data key="d2">examines</data>
+    </edge>
+    <edge source="DR6" target="D1">
+      <data key="d2">symptomatic_relief_for</data>
+    </edge>
+    <edge source="DR7" target="D1">
+      <data key="d2">symptomatic_relief_for</data>
+    </edge>
+    <edge source="DR8" target="D1">
+      <data key="d2">symptomatic_relief_for</data>
+    </edge>
+    <edge source="DR9" target="D1">
+      <data key="d2">symptomatic_relief_for</data>
+    </edge>
+    <edge source="DR10" target="D1">
+      <data key="d2">disease_modifying_candidate_for</data>
+    </edge>
+    <edge source="DA1" target="D1">
+      <data key="d2">applied_to</data>
+    </edge>
+    <edge source="DA2" target="D1">
+      <data key="d2">applied_to</data>
+    </edge>
+    <edge source="DA3" target="D1">
+      <data key="d2">applied_to</data>
+    </edge>
+    <edge source="DA4" target="D1">
+      <data key="d2">applied_to</data>
+    </edge>
+    <edge source="DA5" target="D1">
+      <data key="d2">applied_to</data>
+    </edge>
+    <edge source="DA6" target="D1">
+      <data key="d2">applied_to</data>
+    </edge>
+  </graph>
+</graphml>
