@@ -1,17 +1,26 @@
 # macOS
 .DS_Store
 
-# Screenshots
-Screenshot*.png
-
 # Local tooling
 .remember/
-
-# Stray copy of an XML input inside pyvis's asset folder
-lib/*.xml
 
 # Python
 __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Course submissions
+*.pdf
+*.docx
+*.pptx
+Knowledge_Graph.py
+
+# Older exported graph (not produced by the current script)
+*.graphml
+
+# Generated outputs (recreated by running Final_Project_Script.py)
+*.csv
+Interactive_AD_KG.html
+lib/
+*.png

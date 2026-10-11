@@ -6,8 +6,6 @@ This project looks at four research papers on Alzheimer's disease (AD) and asks 
 
 ## Pipeline
 
-![Project pipeline](<Project Pipeline (1).png>)
-
 1. **XML parsing.** Each `*.xml` file has `<Entities>` and `<Relation>` elements. Entities become nodes, typed by category (Biomarker, Drug, Disease_Stage, and so on). Relations become directed edges labeled with their predicate. All four papers merge into one graph.
 2. **Graph features.** For each node: in/out/total degree, semantic type, ego-network density and global graph density (`graph_features.csv`).
 3. **Interactive visualization.** A pyvis/vis.js graph colored by entity type (`Interactive_AD_KG.html`, which loads its assets from `lib/`).
@@ -23,19 +21,10 @@ This project looks at four research papers on Alzheimer's disease (AD) and asks 
 | Path | Description |
 | --- | --- |
 | `Final_Project_Script.py` | Main pipeline: XML to KG to features to bias labels to GNN, plus sentiment/text analysis |
-| `Knowledge_Graph.py` | Earlier, simpler version of the KG and text-analysis script |
+| `*.xml` | Structured summaries of the articles (the KG input) |
 | `AD_Diagnosis.txt`, `AD_Disease-Modifying_Therapies.txt`, `AD_Drug_Development.txt` | Full text of the source articles (publicly available) |
 | `AD_Merged.txt` | All article text combined, used for the text analysis |
-| `*.xml` | Structured summaries of the articles (the KG input) |
 | `stopwords_en.txt` | Stopword list for text cleaning |
-| `graph_features.csv` | Per-node graph features |
-| `initial_bias_labels.csv` | Degree-based bias labels |
-| `gnn_bias_predictions.csv` | GNN predictions and class probabilities |
-| `Combined_AD_KnowledgeGraph.graphml` | Combined knowledge graph in GraphML format |
-| `Interactive_AD_KG.html`, `lib/` | Interactive graph visualization and its JS/CSS assets |
-| `AD_WordCloud.png` | Word cloud of the merged text |
-| `Final_Project_Report.pdf`, `Presentation1.pptx` | Final report and presentation |
-| `Midterm Report.pdf`, `Midterm Report.docx` | Midterm report |
 
 ## Running
 
@@ -44,4 +33,10 @@ pip install -r requirements.txt
 python Final_Project_Script.py
 ```
 
-Run the script from the repository root. It reads the XML files from the current directory and writes its outputs there.
+Run the script from the repository root. It reads the XML files from the current directory and writes these outputs there:
+
+- `graph_features.csv`
+- `initial_bias_labels.csv`
+- `gnn_bias_predictions.csv`
+- `Interactive_AD_KG.html`, plus the `lib/` folder it loads its assets from
+- `AD_WordCloud.png`
