@@ -352,7 +352,7 @@ def make_wordcloud(freqs, title, filename):
     plt.close()
 
 if __name__ == "__main__":
-    folder = Path("/Users/rc/Documents/Stevens/Fall 2025/EM 626 (AI & Machine Learning for Systems)/Final Project")
+    folder = Path(".")
     G_combined = nx.DiGraph()
 
     xml_files = list(folder.glob("*.xml"))

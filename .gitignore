@@ -15,3 +15,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Full text of source articles (copyrighted; not redistributed)
+AD_*.txt

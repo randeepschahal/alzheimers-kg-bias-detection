@@ -24,8 +24,6 @@ This project looks at four research papers on Alzheimer's disease (AD) and asks 
 | --- | --- |
 | `Final_Project_Script.py` | Main pipeline: XML to KG to features to bias labels to GNN, plus sentiment/text analysis |
 | `Knowledge_Graph.py` | Earlier, simpler version of the KG and text-analysis script |
-| `AD_Diagnosis.txt`, `AD_Disease-Modifying_Therapies.txt`, `AD_Drug_Development.txt` | Full text of the source articles |
-| `AD_Merged.txt` | All article text combined, used for the text analysis |
 | `*.xml` | Structured summaries of the articles (the KG input) |
 | `stopwords_en.txt` | Stopword list for text cleaning |
 | `graph_features.csv` | Per-node graph features |
@@ -44,4 +42,6 @@ pip install -r requirements.txt
 python Final_Project_Script.py
 ```
 
-Note: the `__main__` block in `Final_Project_Script.py` uses a hard-coded absolute path for the project folder. Change it to `Path(".")` (or your own path) before running the script on a different machine.
+Run the script from the repository root. It reads the XML files from the current directory and writes its outputs there.
+
+The full text of the source articles is not included because of copyright. The script reads `AD_Merged.txt`, a plain-text file with the four article texts combined, when it starts. Before running, get your own copies of the articles and save their combined text as `AD_Merged.txt` in the repository root. The generated outputs (the CSVs, the graph files and the word cloud) are already committed, so you can look at the results without running anything.
